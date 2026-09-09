@@ -1,0 +1,54 @@
+body {
+    background-color: #FFF3D6;
+    color: #2B2118;
+}
+body {
+    margin: 0;
+    font-family: "Bree Serif", serif;
+    color: #C62828;
+}
+.topo {
+    background-color: #8E1B1B;
+    color: #FFF3D6;
+    text-align: center;
+    padding: 30px 22px;
+}
+.topo-logobest {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.sabores {
+    background-color: #FFF;
+    margin: 16px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 16px;
+}
+.pizzas h2 {
+    color: #8E1B1B;
+    margin-top: 1px;
+}
+.pizzas p {
+    margin-top: -15px;
+}
+.rodape {
+    text-align: center;
+    font-size: 14px;
+    color: #2E4A2F;
+    padding: 16px;
+}
+.pizza {
+    display:inline;
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+
+}
+.imagens{
+    width: 40%;
+}
