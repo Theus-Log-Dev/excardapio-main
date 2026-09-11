@@ -7,18 +7,12 @@ body {
     font-family: "Bree Serif", serif;
     color: #C62828;
 }
-.topo {
+header {
     background-color: #8E1B1B;
     color: #FFF3D6;
     text-align: center;
-    padding: 30px 22px;
+    padding: 22px 14px;
 }
-.topo-logobest {
-    width: 100px;
-    height: auto;
-    margin-top: 10px;
-}
-
 .sabores {
     background-color: #FFF;
     margin: 16px;
@@ -36,11 +30,14 @@ body {
 .pizzas p {
     margin-top: -15px;
 }
-.rodape {
+footer {
     text-align: center;
     font-size: 14px;
     color: #2E4A2F;
     padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .pizza {
     display:inline;
@@ -49,6 +46,20 @@ body {
     margin-top: 10px;
 
 }
+.whatsapp-button button {
+    background-color: #2E4A2F;
+    color: #FFF3D6;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 13px;
+}
+.whatsapp-button button:hover {
+    background-color: #fbfcfb;
+    color: #2E4A2F;
+}
 .imagens{
     width: 40%;
 }
+
